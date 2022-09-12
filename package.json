@@ -2,12 +2,15 @@
   "name": "rastreiocorreios_api",
   "version": "1.0.0",
   "description": "",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
   },
   "author": "Matheus Moura",
   "license": "ISC",
+  "type": "module",
   "devDependencies": {
     "nodemon": "^2.0.19"
   },
